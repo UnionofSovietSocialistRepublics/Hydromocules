@@ -1,0 +1,14 @@
+{
+  "name": "hydromocules",
+  "version": "1.0.0",
+  "description": "yes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "water molecules",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
