@@ -9,6 +9,7 @@
   "author": "water molecules",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "discord.js": "^14.14.1"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
   }
 }
