@@ -12,7 +12,7 @@ module.exports = {
 		.addStringOption(option =>
 			option.setName('hidden')
 			.setDescription('whatever this is hidden or not')
-			.setRequired(true)
+			.setRequired(false)
 			.addChoices(
 				{ name: 'true', value: 'yes' },
 				{ name: 'false', value: 'no' },
@@ -25,6 +25,9 @@ module.exports = {
 			await interaction.reply({ content: `${input}`, ephemeral: true });
 			break;
 			case 'no':
+				await interaction.reply({ content: `${input}`, ephemeral: false });
+			break;
+			default:
 				await interaction.reply({ content: `${input}`, ephemeral: false });
 			break;
 		}
